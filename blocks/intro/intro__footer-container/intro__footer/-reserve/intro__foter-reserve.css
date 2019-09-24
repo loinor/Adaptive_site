@@ -1,0 +1,6 @@
+.intro__footer-reserve::before {
+    height: 15px;
+    content: "Природных заповедников";
+    font-weight: bold;
+    margin: 0px 4px 0px 0px;
+}

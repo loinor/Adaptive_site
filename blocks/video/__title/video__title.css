@@ -1,0 +1,102 @@
+.video__title {
+    width: 740px;
+    height: 147px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0px 0px 48px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__title{
+    width: 77%;
+    font-size: 70px;
+    margin: 0px 0px 43px 0px;
+}
+}
+
+@media screen and (max-width: 970px) {
+    .video__title{
+    width: 77%;
+    font-size: 58px;
+}
+}
+
+@media screen and (max-width: 820px) {
+    .video__title{
+    width: 77%;
+    font-size: 50px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .video__title{
+    width: 59%;
+    height: 99px;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0px auto 35px;
+}
+}
+
+@media screen and (max-width: 638px) {
+    .video__title{
+    width: 59%;
+    height: 99px;
+    font-size: 33px;
+    line-height: 46px;
+    margin: 0px auto 35px;
+}
+}
+
+@media screen and (max-width: 550px) {
+    .video__title{
+    width: 59%;
+    height: 99px;
+    font-size: 30px;
+    line-height: 46px;
+    margin: 0px auto 35px;
+}
+}
+
+@media screen and (max-width: 505px) {
+    .video__title{
+    width: 59%;
+    height: 99px;
+    font-size: 25px;
+    line-height: 46px;
+    margin: 0px auto 35px;
+}
+}
+
+@media screen and (max-width: 450px) {
+    .video__title{
+    width: 59%;
+    height: 99px;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0px auto 35px;
+}
+}
+
+@media screen and (max-width: 375px) {
+    .video__title{
+    width: 96%;
+    max-height: 80px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0px auto 26px;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .video__title{
+    width: 96%;
+    max-height: 112px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0px auto 25px;
+}
+}

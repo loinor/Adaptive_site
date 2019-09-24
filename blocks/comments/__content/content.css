@@ -1,0 +1,45 @@
+@import url("./__commet-container/content__comment-container.css");
+
+.content {
+    width: 82%;
+    min-height: 370px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 382px;
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 74px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content {
+        width: 100%;
+        height: auto;
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 47px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content {
+        width: 100%;
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 36px 0px 0px 0px;
+    }
+}

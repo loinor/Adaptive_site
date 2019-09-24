@@ -1,0 +1,46 @@
+@import url("./place-first/place-first.css");
+@import url("./place-second/place-second.css");
+
+.place-container {
+    width: 984px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 78px 0px;
+}
+
+@media screen and (max-width:1024px) {
+    .place-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place-container {
+        width: 100%;
+    }
+
+    .place-container:last-of-type {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width:656px) {
+    .place-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 45px 0px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .place-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 45px 0px;
+    }
+}

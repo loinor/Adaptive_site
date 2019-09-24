@@ -1,0 +1,21 @@
+@import url("./place__information/place__information.css");
+
+.place__information-container {
+    width: 484px;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1024px) {
+    .place__information-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__information-container {
+        width: 100%;
+    }
+}

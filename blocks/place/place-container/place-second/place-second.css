@@ -1,0 +1,40 @@
+@import url("./__web-container/place__web-container.css");
+@import url("./place__information-container/place__information-container.css");
+
+.place-second {
+    width: 484px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width:1024px) {
+    .place-second {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place-second {
+        width: 49%;
+    }
+
+    .first {
+        margin-top: 53px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .place-second {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place-second {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+}

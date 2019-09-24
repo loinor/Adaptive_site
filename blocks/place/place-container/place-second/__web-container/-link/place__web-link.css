@@ -1,0 +1,24 @@
+.place__web-link {
+    width: 484px;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__web-link {
+        line-height: 21px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__web-link {
+        width: 100%;
+        line-height: 21px;
+    }
+}

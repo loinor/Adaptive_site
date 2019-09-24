@@ -1,0 +1,30 @@
+@import url("./intro__footer/intro__footer.css");
+
+
+.intro__footer-container {
+    width: 383px;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__footer-container {
+        width: 44%;
+        margin: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__footer-container {
+        width: 88%;
+        margin: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro__footer-container {
+        width: 100%;
+        margin: 0px 0px;
+    }
+}

@@ -1,0 +1,47 @@
+@import url("./__subtitle/video__subtitle.css");
+@import url("./__title/video__title.css");
+@import url("./__frame/video__frame.css");
+
+.video {
+    width: 82%;
+    height: 648px;
+    margin: 0px auto 118px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        width: 91%;
+        margin: 0px auto 77px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video {
+        width: 94%;
+        max-height: 445px;
+        margin: 0px auto 104px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video {
+        width: 91%;
+        max-height: 598px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 68px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video {
+        width: 91%;
+        max-height: 598px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 81px;
+    }
+}

@@ -1,0 +1,19 @@
+.content__comment-image {
+    width: 97px;
+    height: 97px;
+    border-radius: 97px;
+    margin: 72px 0px 42px 0px;
+    position: relative;
+}
+
+@media screen and (max-width:1024px) {
+    .content__comment-image {
+        margin: 72px 0px 37px 0px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content__comment-image {
+        margin: 0px 0px 15px 0px;
+    }
+}

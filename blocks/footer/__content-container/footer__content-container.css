@@ -1,0 +1,21 @@
+@import url("./__content/footer__content.css");
+
+.footer__content-container {
+    display: flex;
+    flex-direction: row;
+    width: 592px;
+}
+
+@media screen and (max-width:1024px) {
+    .footer__content-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .footer__content-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}

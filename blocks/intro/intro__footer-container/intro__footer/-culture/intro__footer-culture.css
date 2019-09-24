@@ -1,0 +1,6 @@
+.intro__footer-culture::before {
+    height: 15px;
+    content: "Объектов культурного наследия ЮНЕСКО";
+    font-weight: bold;
+    margin: 0px 4px 0px 0px;
+}

@@ -1,0 +1,6 @@
+.intro__footer-times::before {
+    height: 15px;
+    content: "Часовых поясов";
+    font-weight: bold;
+    margin: 0px 4px 0px 0px;
+}

@@ -1,0 +1,38 @@
+@import url("./_author/content__comment-author.css");
+@import url("./_quote/content__comment-quote.css");
+
+.content__comment-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .content__comment-text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .content__comment-text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content__comment-text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

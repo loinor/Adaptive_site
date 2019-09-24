@@ -1,0 +1,37 @@
+.video__item_bg-picture {
+    width: 100%;
+    height: 323px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__item_bg-picture {
+        width: 100%;
+        max-height: 286px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__item_bg-picture {
+        width: 100%;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__item_bg-picture {
+        width: 100%;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__item_bg-picture {
+        width: 100%;
+        max-height: 192px;
+    }
+}

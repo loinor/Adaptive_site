@@ -1,0 +1,26 @@
+.lead__main-pic {
+    width: 984px;
+    height: 554px;
+    margin: 0px auto 0px;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__main-pic {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__main-pic {
+        width: 100%;
+        max-height: 421px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .lead__main-pic {
+        width: 100%;
+        max-height: 211px;
+    }
+}

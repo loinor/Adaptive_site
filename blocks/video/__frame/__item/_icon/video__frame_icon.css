@@ -1,0 +1,31 @@
+.video__frame_icon {
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 30px;
+    right: 512px;
+    bottom: 252px;
+    left: 30px;
+    z-index: 2
+}
+
+@media screen and (max-width: 768px) {
+    .video__frame_icon {
+        top: 26px;
+        left: 26px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .video__frame_icon {
+        top: 21px;
+        left: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__frame_icon {
+        top: 17px;
+        left: 18px;
+    }
+}

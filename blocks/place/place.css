@@ -1,0 +1,97 @@
+@import url("./place-container/place-container.css");
+
+.place {
+    width: 984px;
+    height: 3362px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 102px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        width: 91%;
+        margin: 0px auto 25px;
+        min-height: 3280px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .place {
+        width: 91%;
+        margin: 0px auto 102px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        width: 94%;
+        margin: 0px auto 10px;
+        min-height: 3036px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 3821px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 3921px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 4171px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 4271px;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 4421px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 4621px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 63px;
+        min-height: 4743px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        width: 100%;
+        margin: 0px auto 72px;
+        min-height: 4868px;
+    }
+}

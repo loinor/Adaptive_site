@@ -1,0 +1,22 @@
+@import url("./_image/cover__picture-image.css");
+@import url("./_rect/cover__picture-rect.css");
+
+.cover__picture {
+    width: 100%;
+    height: 594px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__picture {
+        width: 100%;
+        height: 562px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__picture {
+        width: 100%;
+        height: 500px;
+    }
+}
